@@ -1,8 +1,8 @@
 class Synaps < Formula
   desc "Terminal-native AI agent runtime built in Rust"
   homepage "https://github.com/HaseebKhalid1507/SynapsCLI"
-  url "https://github.com/HaseebKhalid1507/SynapsCLI/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "4324bdfdce0c775e07f1538daa3131a80316f60d6a3b36c58882e5068040d8b4"
+  url "https://github.com/HaseebKhalid1507/SynapsCLI/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "74ab8d738cc9eadb6de1ef361fc8e148d93b11528c76c904686b5055e9e8ef24"
   license "Apache-2.0"
 
   depends_on "rust" => :build
