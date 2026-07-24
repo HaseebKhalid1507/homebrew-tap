@@ -5,16 +5,16 @@ class Myx < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.4/myx-aarch64-apple-darwin.tar.gz"
-      sha256 "50a87cee41b58251549c15ca63024bfa5c8c50ee2ec8b7d8afd7c0e20eb59984"
+      sha256 "ec0e9aba67ef48a85036937eeb182c631161156c5ff4bb4b52ad1596c63dc75e"
     end
     if Hardware::CPU.intel?
       url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.4/myx-x86_64-apple-darwin.tar.gz"
-      sha256 "50ee276ed31b12384de363265a278c88335fa3b43dd029615f46d95a1e72291c"
+      sha256 "fb8663e0e279b2f8d7012c61d484702b2e1d5c3bbc5ced8a82951319d2cf4eef"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.4/myx-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "45143fe0bfb16376425f629bf33ddd54044063eb24e19c698caefad572c0c3f7"
+    sha256 "ddac68e3ada2dfe05291bbd941625e8d4c1d55460c087d50eae1db41500943ad"
   end
   license "MIT"
 
