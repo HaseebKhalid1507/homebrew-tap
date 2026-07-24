@@ -1,20 +1,20 @@
 class Myx < Formula
   desc "A lean, beautiful terminal Spotify player"
   homepage "https://github.com/HaseebKhalid1507/Myx"
-  version "0.2.3"
+  version "0.2.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.3/myx-aarch64-apple-darwin.tar.gz"
-      sha256 "29abcb330472757f43140a2ed2a9c98b40947fb1586af5275b16f3fd2a957a67"
+      url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.4/myx-aarch64-apple-darwin.tar.gz"
+      sha256 "50a87cee41b58251549c15ca63024bfa5c8c50ee2ec8b7d8afd7c0e20eb59984"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.3/myx-x86_64-apple-darwin.tar.gz"
-      sha256 "46c857f2dc60848a2c4cd2dc20bf8d636417ebfd89afd0b47613d6f406775a76"
+      url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.4/myx-x86_64-apple-darwin.tar.gz"
+      sha256 "50ee276ed31b12384de363265a278c88335fa3b43dd029615f46d95a1e72291c"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.3/myx-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "d00a516d30bd7d625128fc839e12bbc8a55a231911e9a6851ee58153e316456a"
+    url "https://github.com/HaseebKhalid1507/Myx/releases/download/v0.2.4/myx-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "45143fe0bfb16376425f629bf33ddd54044063eb24e19c698caefad572c0c3f7"
   end
   license "MIT"
 
